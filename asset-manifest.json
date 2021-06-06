@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/typing-game-react/static/css/main.8b2cf54d.chunk.css",
+    "main.js": "/typing-game-react/static/js/main.60635881.chunk.js",
+    "main.js.map": "/typing-game-react/static/js/main.60635881.chunk.js.map",
+    "runtime-main.js": "/typing-game-react/static/js/runtime-main.894a6b69.js",
+    "runtime-main.js.map": "/typing-game-react/static/js/runtime-main.894a6b69.js.map",
+    "static/js/2.37535e1a.chunk.js": "/typing-game-react/static/js/2.37535e1a.chunk.js",
+    "static/js/2.37535e1a.chunk.js.map": "/typing-game-react/static/js/2.37535e1a.chunk.js.map",
+    "index.html": "/typing-game-react/index.html",
+    "static/css/main.8b2cf54d.chunk.css.map": "/typing-game-react/static/css/main.8b2cf54d.chunk.css.map",
+    "static/js/2.37535e1a.chunk.js.LICENSE.txt": "/typing-game-react/static/js/2.37535e1a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.894a6b69.js",
+    "static/js/2.37535e1a.chunk.js",
+    "static/css/main.8b2cf54d.chunk.css",
+    "static/js/main.60635881.chunk.js"
+  ]
+}
