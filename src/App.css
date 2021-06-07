@@ -35,7 +35,6 @@
 }
 .difficulty-enter-done {
   transform: scaleY(1);
-  background-color: red;
 }
 
 .difficulty-exit {
