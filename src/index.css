@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+    to right top,
+    #130a2a,
+    #161630,
+    #1c1e36,
+    #23273b,
+    #2b3040,
+    #2b3040,
+    #2c3040,
+    #2c3040,
+    #25273b,
+    #1f1f36,
+    #1a1630,
+    #170b2a
+  );
+  overflow-x: hidden;
+}

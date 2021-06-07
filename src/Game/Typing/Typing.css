@@ -1,0 +1,151 @@
+.Typing {
+  height: 0;
+  background-color: black;
+  transition: height 0.5s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* visibility: hidden;
+  pointer-events: none; */
+}
+
+.Typing-entering {
+  height: 0;
+}
+
+.Typing-entered {
+  height: 100vh;
+  /* visibility: visible;
+  pointer-events: all; */
+}
+
+.board {
+  background-image: linear-gradient(
+    to right top,
+    #420c65,
+    #4c1a72,
+    #56267f,
+    #61318c,
+    #6b3d9a,
+    #6b3d9a,
+    #6b3d9a,
+    #6b3d9a,
+    #61318c,
+    #56267f,
+    #4c1a72,
+    #420c65
+  );
+  width: 55vmin;
+  transform: scale(0);
+  transition: transform 0.5s linear 1.4s;
+}
+
+.board-entering {
+  transform: scale(1);
+}
+
+.board-entered {
+  transform: scale(1);
+}
+
+.board h1 {
+  text-align: center;
+  font-size: 4vmin;
+  letter-spacing: 0.3vmin;
+  margin-bottom: 2vmin;
+  color: white;
+  background-image: linear-gradient(
+    to right top,
+    #341448,
+    #351a49,
+    #372049,
+    #382549,
+    #3a2a49,
+    #3a2a49,
+    #3a2a49,
+    #3a2a49,
+    #382549,
+    #372049,
+    #351a49,
+    #341448
+  );
+}
+
+.timer-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 40vmin;
+}
+
+.timer-border-empty {
+  border: 2px solid rgb(0, 255, 213);
+  width: 30vmin;
+  height: 4vmin;
+  position: relative;
+  border-radius: 0.8rem;
+}
+
+.timer-border-full {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(173, 216, 230, 0.651);
+  border-radius: 0.8rem;
+  transition: width 1s linear;
+}
+
+.timer-container h2 {
+  position: absolute;
+  font-size: 6vmin;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.board-footer {
+  background-image: linear-gradient(
+    to right top,
+    #341448,
+    #351a49,
+    #372049,
+    #382549,
+    #3a2a49,
+    #3a2a49,
+    #3a2a49,
+    #3a2a49,
+    #382549,
+    #372049,
+    #351a49,
+    #341448
+  );
+}
+
+.board-footer input {
+  width: 100%;
+  background-image: linear-gradient(
+    to right top,
+    #341448,
+    #351a49,
+    #372049,
+    #382549,
+    #3a2a49,
+    #3a2a49,
+    #3a2a49,
+    #3a2a49,
+    #382549,
+    #372049,
+    #351a49,
+    #341448
+  );
+  outline: none;
+  border: 1px solid black;
+  font-size: 3vmin;
+  letter-spacing: 0.4vmin;
+  color: white;
+  padding: 1vmin 0.5vmin;
+}

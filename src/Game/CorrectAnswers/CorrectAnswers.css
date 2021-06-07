@@ -1,0 +1,42 @@
+.CorrectAnswers {
+  height: 0;
+  background-color: rgb(236, 227, 227);
+  transition: height 0.5s linear 0.2s;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.CorrectAnswers-entering {
+  height: 0;
+}
+
+.CorrectAnswers-entered {
+  height: 100vh;
+  overflow-y: scroll;
+  visibility: visible;
+  pointer-events: all;
+}
+
+.CorrectAnswers h1 {
+  font-size: 3vmin;
+  letter-spacing: 0.3vmin;
+  font-style: italic;
+  text-align: center;
+  margin: 2vmin 0;
+}
+
+.CorrectAnswers ul {
+  list-style-type: none;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, 1fr));
+  grid-row-gap: 2vmin;
+  justify-items: center;
+}
+
+.CorrectAnswers li {
+  font-size: 4vmin;
+  background-color: lightsalmon;
+  border-radius: 0.6rem;
+  padding: 0.5vmin 1vmin;
+}
